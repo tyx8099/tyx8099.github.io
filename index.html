@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tee Yu Xun — Data Engineer &amp; Analytics Professional</title>
+  <meta name="description" content="Portfolio of Tee Yu Xun — Data Engineer with experience in Microsoft Fabric, Databricks, Power BI, and AI-enabled data platforms." />
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav">
+      <a class="brand" href="#top">Tee Yu Xun</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="top" class="hero container">
+      <p class="eyebrow">Data Engineer · Analytics · AI-Enabled Platforms</p>
+      <h1>Hi, I'm Tee Yu Xun.</h1>
+      <p class="hero-sub">
+        I build data pipelines, semantic layers, and AI-enabled data platforms that turn messy source
+        systems into trusted, decision-ready insight — on Microsoft Fabric, Databricks, and beyond.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projects">View Projects</a>
+        <a class="btn btn-outline" href="#contact">Get In Touch</a>
+      </div>
+      <ul class="hero-links">
+        <li><a href="https://github.com/tyx8099" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/your-linkedin-handle" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="mailto:yuxuntee@gmail.com">Email</a></li>
+      </ul>
+    </section>
+
+    <section id="about" class="section container">
+      <h2>About Me</h2>
+      <p>
+        I'm a Data Engineer with hands-on experience building data ingestion pipelines, curated datasets, and
+        semantic data models on Microsoft Fabric and Databricks across retail, healthcare, and public sector
+        domains. I bridge source systems and business reporting needs, owning live semantic layers that power
+        trusted Power BI dashboards, and structuring data for emerging AI-enabled use cases such as semantic
+        search and conversational retail experiences. I bring end-to-end ownership — from pipeline engineering
+        and data governance through to dashboard delivery and stakeholder alignment.
+      </p>
+      <div class="pill-row">
+        <span class="pill">Data Engineering</span>
+        <span class="pill">Data Analytics</span>
+        <span class="pill">Product Management</span>
+      </div>
+    </section>
+
+    <section id="experience" class="section container">
+      <h2>Experience</h2>
+
+      <div class="timeline-item">
+        <div class="timeline-head">
+          <h3>Senior Data Engineer · KrisShop (SIA Group)</h3>
+          <span class="timeline-date">Feb 2025 – Present</span>
+        </div>
+        <ul>
+          <li>Architected and built a modern data platform on Microsoft Fabric, migrating off a retired legacy Datamart to design scalable, end-to-end pipelines and curated, reusable datasets.</li>
+          <li>Built and maintain a semantic layer defining consistent KPIs, metrics, and business logic consumed directly by Power BI, serving as the trusted foundation for downstream reporting.</li>
+          <li>Architected and deployed local AI agents (Ollama) for automated invoice processing and natural-language BI queries; leading a PoC on semantic search and Google CES Agent Studio for conversational retail experiences.</li>
+          <li>Built automated pipelines (Python, GraphQL, Power Automate) for dropship order processing, pricing-error checks, and ERP-integrated price updates — saving hours of manual effort daily and expanding catalog revenue.</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-head">
+          <h3>Data Engineer, Data Analytics &amp; AI · Synapxe (iHiS)</h3>
+          <span class="timeline-date">Jul 2022 – Jan 2025</span>
+        </div>
+        <ul>
+          <li>Designed, developed, and deployed scalable ETL pipelines using Informatica and Python, building reusable datasets from large source systems for downstream reporting and analytics.</li>
+          <li>Containerized ETL workflows with Docker to streamline deployment and improve maintainability.</li>
+          <li>Translated business requirements into technical data specs and led migration of legacy systems to the national cloud analytics platform (Healix), ensuring compliance with governance policies.</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-head">
+          <h3>General Education Officer · Ministry of Education</h3>
+          <span class="timeline-date">Jul 2017 – Mar 2022</span>
+        </div>
+        <ul>
+          <li>Developed data-driven tools and automation, including structured question databases, a GCP-hosted chatbot for student remarks, and an LLM-based composition grader to streamline academic workflows.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <h2>Personal Projects</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Hotel Competitive Pricing Scraper</h3>
+          <p>
+            A Python web scraper (BeautifulSoup) that extracts hotel pricing data from Booking.com, stores
+            structured records in Airtable, and surfaces an interactive Streamlit dashboard for analyzing
+            competitive rate strategies.
+          </p>
+          <div class="tag-row">
+            <span class="tag">Python</span>
+            <span class="tag">BeautifulSoup</span>
+            <span class="tag">Airtable</span>
+            <span class="tag">Streamlit</span>
+          </div>
+          <a class="project-link" href="https://github.com/tyx8099" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Cats ESP32 — Animated Cat Pet Display</h3>
+          <p>
+            An interactive animated cat display for ESP32-S3 AMOLED boards, built with PlatformIO and C++.
+            Features a shared multi-board hardware abstraction layer, touch controls, configurable
+            personalities, 23 sprite animations, and ESP-NOW pairing with cat-state migration between
+            dual screens.
+          </p>
+          <div class="tag-row">
+            <span class="tag">C++</span>
+            <span class="tag">ESP32-S3</span>
+            <span class="tag">PlatformIO</span>
+            <span class="tag">ESP-NOW</span>
+          </div>
+          <a class="project-link" href="https://github.com/tyx8099" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section container">
+      <h2>Skills &amp; Certifications</h2>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Data &amp; AI</h3>
+          <div class="tag-row">
+            <span class="tag">Data Platform Architecture</span>
+            <span class="tag">ETL / ELT Pipelines</span>
+            <span class="tag">Data Governance</span>
+            <span class="tag">Semantic Modeling</span>
+            <span class="tag">Business Intelligence</span>
+            <span class="tag">RAG / Semantic Search</span>
+            <span class="tag">LLM Automation</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Tools &amp; Technologies</h3>
+          <div class="tag-row">
+            <span class="tag">Python</span>
+            <span class="tag">SQL</span>
+            <span class="tag">Microsoft Fabric</span>
+            <span class="tag">Databricks</span>
+            <span class="tag">Power BI</span>
+            <span class="tag">Docker</span>
+            <span class="tag">AWS</span>
+            <span class="tag">Power Automate</span>
+            <span class="tag">GraphQL</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Embedded Systems</h3>
+          <div class="tag-row">
+            <span class="tag">ESP32-S3 Firmware</span>
+            <span class="tag">C++</span>
+            <span class="tag">ESP-NOW</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Certifications</h3>
+          <ul class="cert-list">
+            <li>AWS Certified Data Engineer – Associate (2024)</li>
+            <li>AWS Certified Machine Learning – Specialty (2024)</li>
+            <li>AWS Certified DevOps Engineer – Professional</li>
+            <li>AWS Certified Machine Learning Engineer – Associate (2025)</li>
+            <li>AWS Certified Cloud Practitioner (2023)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section container contact-section">
+      <h2>Get In Touch</h2>
+      <p>Open to Data Engineering, Data Analytics, and Technical Product roles. Feel free to reach out.</p>
+      <div class="hero-links">
+        <a class="btn btn-primary" href="mailto:yuxuntee@gmail.com">Email Me</a>
+        <a class="btn btn-outline" href="https://github.com/tyx8099" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn-outline" href="https://www.linkedin.com/in/your-linkedin-handle" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Tee Yu Xun. Built with HTML, CSS &amp; JS, hosted on GitHub Pages.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
